@@ -18,3 +18,5 @@ class D(B, C):
         B.__init__(self)
         C.__init__(self)
 d = D()
+
+#direct class break MRO Chain

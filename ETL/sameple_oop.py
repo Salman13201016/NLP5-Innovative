@@ -18,6 +18,6 @@ student3 = Student('farha','xyz34')
 # print(student3.name)
 print(student1.__dict__)
 pprint(student1.__dict__)
-
+print(dir[student1])
 # print(student2)
 

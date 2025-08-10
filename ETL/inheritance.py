@@ -16,7 +16,18 @@ class C(A):
 class D(B, C):
     def __init__(self):
         print("D init")
-        super().__init__()
+        super().__init__() 
+#super_Follows_MRO = Method Resolution Order
+#MRO = C3 Linearization method
+d = D() #D->B->C->A
 
-d = D()
+#starts with D
+#then go to the B 
+#Theb check B's Parent(A)
+#then check C
+#then check A
 print(D.__mro__)
+
+#how MRO Works
+#how l3 linearization works
+#why do we need MRO
